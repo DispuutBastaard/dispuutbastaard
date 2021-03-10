@@ -30,7 +30,7 @@ const IndexPage = () => {
           </Card>
 
           <Card title="Reglement van Orde">
-            Ons Reglement van Orde is gedeponeerd bij <a href="https://svsticky.nl">Stickyvereniging Sticky</a>.<br></br>
+            Ons Reglement van Orde is gedeponeerd bij <a href="https://svsticky.nl">Studievereniging Sticky</a>.<br></br>
             U kunt deze ook <a href={rvo}>hier</a> downloaden.
           </Card>
 
