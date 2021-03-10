@@ -1,11 +1,9 @@
-## 🚀 Quick start
+# Quick start
 
 ``` bash
 nvm install --lastest-npm
-```
-
-``` bash
+npm install
 npm run develop
 ```
 
-Your site is now running at http://localhost:8000!
+Your site is now running at <http://localhost:8000>
