@@ -1,4 +1,7 @@
 import * as React from "react"
+
+import Card from "../components/card"
+
 import logo from "../images/logo.svg"
 import rvo from "../images/rvo.pdf"
 import leden from "../data/leden.json"
@@ -13,28 +16,23 @@ const IndexPage = () => {
       <div class="h-full bg-gray-200 flex flex-col items-center">
         <div class="max-w-5xl">
 
+          <Card title="Dispuut Bastaard">
+            Bourgondisch dispuut Bastaard is een dispuut van Studievereniging Sticky, en heeft goed eten en drinken hoog in het vaandel staan. Het doel van Bastaard is het verhogen van de kwaliteit van leven van de student en het bevorderen van de Bourgondische levensstijl.
+          </Card>
 
-          <div class="bg-white w-full p-12 rounded-xl my-8 shadow-xl">
-            <h1 class="text-2xl mb-4">Dispuut Bastaard</h1>
-            Bourgondisch dispuut Bastaard is een dispuut van Studievereniging Sticky, en heeft goed eten en drinken hoog in het vaandel staan.
-            Het doel van Bastaard is het verhogen van de kwaliteit van leven van de student en het bevorderen van de Bourgondische levensstijl.
-          </div>
-
-          <div class="bg-white w-full p-12 rounded-xl my-8 shadow-xl">
-            <h1 class="text-2xl mb-4">Leden</h1>
+          <Card title="Leden">
             Dispuut Bastaard telt op dit moment 14 leden:
             <ul class="list-disc ml-4">
               {leden.map((lid) => {
                 return <li>{lid}</li>
               })}
             </ul>
-          </div>
+          </Card>
 
-          <div class="bg-white w-full p-12 rounded-xl my-8 shadow-xl">
-            <h1 class="text-2xl mb-4">Reglement van Orde</h1>
-              Ons Reglement van Orde is gedeponeerd bij <a class="text-blue-400" href="https://svsticky.nl">Stickyvereniging Sticky</a>.<br></br>
-              U kunt deze ook <a class="text-blue-400" href={rvo}>hier</a> downloaden.
-          </div>
+          <Card title="Reglement van Orde">
+            Ons Reglement van Orde is gedeponeerd bij <a href="https://svsticky.nl">Stickyvereniging Sticky</a>.<br></br>
+            U kunt deze ook <a href={rvo}>hier</a> downloaden.
+          </Card>
 
         </div>
       </div>
