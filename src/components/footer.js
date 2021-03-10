@@ -3,7 +3,7 @@ import * as React from "react"
 const Footer = () => {
   return (
     <footer class="bg-gray-800">
-        Over ons
+      bastaard@svsticky.nl
     </footer>
   )
 }
