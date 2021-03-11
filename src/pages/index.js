@@ -17,7 +17,13 @@ const IndexPage = () => {
         <div class="max-w-5xl">
 
           <Card title="Dispuut Bastaard">
-            Bourgondisch dispuut Bastaard is een dispuut van Studievereniging Sticky, en heeft goed eten en drinken hoog in het vaandel staan. Het doel van Bastaard is het verhogen van de kwaliteit van leven van de student en het bevorderen van de Bourgondische levensstijl.
+            <p>
+              Bourgondisch dispuut Bastaard is een dispuut van Studievereniging Sticky, en heeft goed eten en drinken hoog in het vaandel staan. Het doel van Bastaard is het verhogen van de kwaliteit van leven van de student en het bevorderen van de Bourgondische levensstijl.
+            </p>
+            <p>
+              Bastaard komt minstens eenmaal per maand bijeen voor een dispuutsavond, meestal met een uitgebreide maaltijd.
+              Daarnaast houden wij open avonden, organiseren we activiteiten voor het dispuut en eenmaal per jaar een activiteit voor Studievereniging Sticky.
+            </p>
           </Card>
 
           <Card title="Leden">
@@ -27,6 +33,17 @@ const IndexPage = () => {
                 return <li>{lid}</li>
               })}
             </ul>
+          </Card>
+
+          <Card title="Lid worden">
+            Je kunt alleen lid worden van Dispuut Bastaard als je lid bent van Studievereniging Sticky.
+            Als je interesse hebt om lid te worden van Bastaard, geef dit dan aan bij het bestuur.
+            Wij nodigen je dan uit voor een open avond om je beter te leren kennen, en indien deze kennismaking goed bevalt, voor een besloten dispuutsavond.
+            Hierna zal er per unanieme stemming besloten worden tot toetreding.
+          </Card>
+
+          <Card title="Contact">
+            Je kunt het bestuur van Bastaard bereiken op <a href="mailto:bastaard@svsticky.nl">bastaard@svsticky.nl</a>
           </Card>
 
           <Card title="Reglement van Orde">

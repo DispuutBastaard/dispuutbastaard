@@ -10,4 +10,8 @@
   a {
     @apply text-blue-500;
   }
+
+  p {
+    @apply mb-4;
+  }
 }
