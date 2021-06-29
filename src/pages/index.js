@@ -8,12 +8,12 @@ import leden from "../data/leden.json"
 
 const IndexPage = () => {
   return (
-    <main class="h-full bg-gray-200">
+    <main class="h-full bg-gray-200 dark:bg-black">
       <title>Dispuut Bastaard</title>
-      <div class="bg-gray-800 items-center flex flex-col w-full h-32 mb-32">
+      <div class="bg-gray-800 dark:bg-black dark:border-b-2 border-karmijnrood items-center flex flex-col w-full h-32 mb-32">
         <img src={logo} alt="Logo" class="h-64"></img>
       </div>
-      <div class="h-full bg-gray-200 flex flex-col items-center">
+      <div class="h-full bg-gray-200 dark:bg-black flex flex-col items-center">
         <div class="max-w-5xl">
 
           <Card title="Dispuut Bastaard">
@@ -53,7 +53,7 @@ const IndexPage = () => {
 
         </div>
       </div>
-      <footer class="bg-gray-800 bottom-0 w-full flex flex-row h-16 items-center">
+      <footer class="bg-gray-800 dark:bg-black dark:border-t-2 border-karmijnrood bottom-0 w-full flex flex-row h-16 items-center">
         <span class="text-white text-center w-full">
           © Dispuut Bastaard - {new Date().getFullYear()}
         </span>

@@ -1,11 +1,19 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'karmijnrood': '#d40000',
+        'vanille': '#fee46e',
+        'koningsblauw': '#1353b4'
+      }
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['dark'],
+    },
   },
   plugins: [],
 }
