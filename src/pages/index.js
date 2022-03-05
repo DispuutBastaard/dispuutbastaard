@@ -5,6 +5,7 @@ import Card from "../components/card"
 import logo from "../images/logo.svg"
 import rvo from "../images/rvo.pdf"
 import leden from "../data/leden.json"
+import alumni from "../data/alumni.json"
 
 const IndexPage = () => {
   return (
@@ -27,12 +28,22 @@ const IndexPage = () => {
           </Card>
 
           <Card title="Leden">
-            Dispuut Bastaard telt op dit moment 14 leden:
-            <ul class="list-disc ml-4">
-              {leden.map((lid) => {
-                return <li>{lid}</li>
-              })}
-            </ul>
+            <p>
+              Dispuut Bastaard telt op dit moment {leden.length} leden:
+              <ul class="list-disc ml-4">
+                {leden.map((lid) => {
+                  return <li>{lid}</li>
+                })}
+              </ul>
+            </p>
+            <p>
+              En {alumni.length} alumni:
+              <ul class="list-disc ml-4">
+                {alumni.map((lid) => {
+                  return <li>{lid}</li>
+                })}
+              </ul>
+            </p>
           </Card>
 
           <Card title="Lid worden">
